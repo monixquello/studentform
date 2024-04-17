@@ -1,0 +1,76 @@
+.label{
+    background-color: brown;
+    height: 150px;
+    width: 100%;
+}
+
+.student{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 450px;
+    padding-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: beige;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: brown;
+    margin-left: 1100px;
+}
+
+
+.button:hover{
+    background-color: brown;
+    color: beige;
+    border-color: 3px beige;
+}
+
+.mytable{
+    margin-top: 50px;
+}
+
+
+/* form designs */
+.btn{
+    background-color: brown;
+    color: beige;
+    width: 200px;
+    font-size: 20px;
+}
+
+.mycard{
+    margin: 30px auto;
+}
+
+.table-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+
+/* OVERLAY CONTENT */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
